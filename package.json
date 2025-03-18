@@ -1,0 +1,20 @@
+{
+  "name": "myblogfe",
+  "version": "1.0.0",
+  "description": "MyBlogFE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iwantcod/MyBlog_FE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iwantcod/MyBlog_FE/issues"
+  },
+  "homepage": "https://github.com/Iwantcod/MyBlog_FE#readme",
+  "type": "module"
+}

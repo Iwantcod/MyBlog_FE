@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글 작성 페이지</title>
+    <link rel="stylesheet" href="./createPost.css">
+</head>
+<body>
+  <form action="/posts" method="post" enctype="multipart/form-data">
+    <input type="text" name="title" placeholder="게시글 제목">
+    <textarea name="content" placeholder="본문 내용"></textarea>
+    <!-- 이미지 파일 선택 (여러 개 선택 가능하도록) -->
+    <input type="file" name="images" multiple>
+    <button type="submit">게시글 저장</button>
+  </form>
+  <script src="./createPost.js" type="module"></script>
+</body>
+</html>

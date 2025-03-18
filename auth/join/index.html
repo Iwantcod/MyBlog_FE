@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+    <link rel="stylesheet" href="/auth/join/index.css">
+</head>
+<body>
+    <div class="join-wrapper">
+        <div class="join-item">
+            <h2>회원가입</h2>
+            <form id="join-form">
+                <label for="join-username">아이디:</label>
+                <input type="text" id="join-username" name="username" required>
+                <button type="button" id="check-username-btn">중복 확인</button>
+                <br>
+                <label for="join-password">비밀번호:</label>
+                <input type="password" id="join-password" name="password" required>
+                <br>
+                <label for="join-name">이름:</label>
+                <input type="text" id="join-name" name="name" required>
+                <br>
+                <label for="join-age">나이:</label>
+                <input type="number" id="join-age" name="age" required>
+                <br><br>
+                <button type="submit" id="join-submit" disabled>회원가입</button>
+            </form>
+        </div>
+    </div>
+    <script src="/auth/join/index.js" type="module"></script>
+</body>
+</html>

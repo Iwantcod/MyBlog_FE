@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+    <link rel="stylesheet" href="/auth/join/complete/index.css">
+</head>
+<body>
+    <div class="join-wrapper">
+        <div class="join-item">
+            <h2>회원가입</h2>
+            <form id="complete-form">
+                <label for="complete-username">아이디:</label>
+                <input type="text" id="complete-username" name="username" required>
+                <button type="button" id="complete-username-btn">중복 확인</button>
+                <br><br>
+                <button type="submit" id="complete-submit" disabled>회원가입</button>
+            </form>
+        </div>
+    </div>
+    <script src="/auth/join/complete/index.js" type="module"></script>
+</body>
+</html>

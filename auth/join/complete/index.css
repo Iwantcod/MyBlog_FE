@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.join-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.join-item {
+  padding: 50px;
+  font-weight: 900;
+}
